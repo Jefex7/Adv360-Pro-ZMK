@@ -34,7 +34,7 @@
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
         &mo 1     &kp GRAVE &mo 2 &kp LEFT &kp RIGHT                &kp SPACE &kp LCTRL   &kp END  &kp PG_DN &hm RCTRL ENTER &kp BSPC              &kp DOWN &kp UP &lt 2 LBKT &kp RBKT &mo 2
       >;
-    }; 
+    };
     keypad {
       display-name = "Kp";
       bindings = <

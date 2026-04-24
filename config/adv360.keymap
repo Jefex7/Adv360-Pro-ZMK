@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define LINUX 0
-#define Mac 1
+#define MAC 1
 #define KP 2
 #define FN 3
 #define MOD 4
@@ -58,7 +58,7 @@
         &mo FN     &kp GRAVE &mo FN &kp LEFT &kp RIGHT                &kp SPACE &kp LCTRL   &kp END  &kp PG_DN &hm RCTRL ENTER &kp BSPC              &kp DOWN &kp UP &lt FN LBKT &kp RBKT &mo FN
       >;
     };
-    mac {
+    mac_layer {
       display-name = "Mac";
       color = <&color_mac>;
       bindings = <
@@ -84,7 +84,7 @@
       bindings = <
         &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &tog KP                                           &mo MOD &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &kp LEFT &kp DOWN &kp UP &Kp RIGHT  &trans  &trans
+        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &kp LEFT &kp DOWN &kp UP &kp RIGHT  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &kp HOME &kp END               &trans &trans &trans &trans &trans &trans              &kp PG_DN &kp PG_UP &trans  &trans  &trans
       >;

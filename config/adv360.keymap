@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/stp.h>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/mouse.h>
 
 #define LINUX 0
 #define MAC 1
@@ -89,9 +90,9 @@
       bindings = <
         &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &tog KP                                           &mo MOD &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &kp LEFT &kp DOWN &kp UP &kp RIGHT  &trans  &trans
-        &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &kp HOME &kp END               &trans &trans &trans &trans &trans &trans              &kp PG_DN &kp PG_UP &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT  &trans  &trans
+        &trans &trans &trans &trans &trans &trans                      &mkp MCLK &mkp MCLK                     &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &kp HOME &kp END               &trans &mkp LCLK &trans &trans &mkp RCLK &trans              &kp PG_DN &kp PG_UP &trans  &trans  &trans
       >;
     };
     extra1 { 
